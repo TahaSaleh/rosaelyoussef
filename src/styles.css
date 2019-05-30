@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.bg-light{
+    background-color:rgb(81, 81, 85) !important;
+    direction: rtl;
+}
+
+.bg-light a{
+    color: rgba(241, 241, 228, 0.856) !important;
+}
+
+.bg-light a:hover{
+    color: white !important;
+    font-weight: bolder;
+}
+body{
+    background-color: rgb(248, 246, 246);
+    direction: rtl;
+}
+
+.card-home {
+    text-align: center;
+
+}
+
+.card-home a{
+    color: rgb(143, 49, 49);
+}
+
+.card-home a:hover{
+    font-weight: bold;
+}
+.card-side{
+    direction: rtl !important;
+    text-align: right !important;
+    padding: 0 !important;
+    padding: 1px !important;
+    
+
+}
+.card-side .card-header{
+    direction: ltr !important;
+    text-align: center;
+    color: brown;
+}
+.card-side a{
+    color: rgb(71, 32, 32);
+    text-align: right;
+}
+
+.bg-light .logo-brand{
+    color: white !important;
+    font-weight: bolder;
+
+}

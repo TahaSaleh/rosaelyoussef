@@ -1,0 +1,13 @@
+
+
+  <div style="position: relative" class="position-sticky">
+  
+      <div class="card card-side " >
+          <div class="card-header">
+            {{title}}
+          </div>
+          <ul class="list-group list-group-flush">
+            <li *ngFor="let n of news" class="list-group-item"><a [routerLink]="['Details',n.ID]">{{n.Name}}</a></li>
+          </ul>
+        </div>
+  </div>

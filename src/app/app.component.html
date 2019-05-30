@@ -1,0 +1,15 @@
+<app-header></app-header>
+<br><br><br>
+
+
+<div style="margin: 0px auto" class="container-fluid row">
+    <section class="col-12 col-md-3">
+        <app-side [news]="TopNews" [title]="titleTop"></app-side>
+    </section>
+    <section class="col-12 col-md-6">
+        <router-outlet></router-outlet>
+    </section>
+    <section class="col-12 col-md-3">
+            <app-side [news]="FeaturedNews" [title]="titleFeatured"></app-side>
+    </section>
+</div>

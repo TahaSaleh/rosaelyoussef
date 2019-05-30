@@ -1,0 +1,6 @@
+<div *ngFor="let n of news" class="card card-home " style="margin-bottom: 10px;">
+    <a [routerLink]="['/Details',n.ID]"><img [src]="n.Image" class="card-img-top" alt="..."></a>
+    <div class="card-body">
+      <p class="card-text"><a [routerLink]="['/Details',n.ID]">{{n.Name}}</a></p>
+    </div>
+</div>
